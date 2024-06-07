@@ -40,6 +40,11 @@ input {
 .form-button {
     color: var(--primary-color);
     border: 1px solid black;
+    padding: 10px 30px;
+}
+
+.about-us {
+    position: relative;
 }
 
 
@@ -53,20 +58,27 @@ input {
 .cat-yoga-img {
     height: 30em;
     aspect-ratio: 1/1;
-    padding-right: 8em;
     margin-left: 1.5em;
     margin-top: 2em;
     margin-bottom: 2em;
+    /*
+    padding-right: 8em;
+    */
 }
 
 .signup-section {
+
     margin-top: 12.5em;
     margin-left: 5em;
 }
 
 .review-card-section {
-    display: flex;
     justify-content: space-evenly;
+}
+
+.ind-card {
+    flex-direction: column;
+    align-items: center;
 }
 
 .contact-info {
@@ -76,4 +88,31 @@ input {
 .form-button:hover {
     background-color: var(--primary-color);
     color: white;
+}
+
+@media screen and (max-width: 767.98px) {
+
+.welcome {
+    display: none;
+}
+
+.cat-yoga-img {
+    height: 20em;
+}
+
+.feature-card {
+    position: unset;
+    margin-top: 1em;
+}
+
+.about-us {
+    position: unset;
+}
+
+.signup-section {
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 2em;
+}
+
 }
