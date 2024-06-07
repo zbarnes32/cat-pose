@@ -1,0 +1,10 @@
+.landing-bg-image {
+    background-image: url("https://images.unsplash.com/photo-1543342824-0f06879b0b0a?q=80&w=2674&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    min-height: 50dhv;
+    background-size: cover;
+    background-position: center;
+}
+
+.landing-form {
+    background-color: rgb(0, 0, 139, 0.7)
+}
