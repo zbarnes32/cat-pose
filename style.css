@@ -20,11 +20,19 @@
 .feature-card {
     background-color: aliceblue;
     position: absolute;
-    right: 0px;
-    bottom: -116px;
+    right: 40px;
+    bottom: -136px;
+    line-height: 3em;
 }
 
 .cat-yoga-img {
-    height: 40dhv;
+    height: 30em;
     aspect-ratio: 1/1;
+    padding-right: 8em;
+    margin-left: 1.5em;
+}
+
+.signup-section {
+    margin-top: 15em;
+    margin-left: 5em;
 }
