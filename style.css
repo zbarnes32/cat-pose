@@ -13,10 +13,16 @@ input {
 footer {
     background-color: var(--primary-color);
 
+}
+
 p.primary-card {
     margin-bottom: 0px;
 }
+
+.intro {
+    font-size: 48px;
 }
+
 .karla{
     font-family: "Karla", sans-serif;
     font-optical-sizing: auto;
