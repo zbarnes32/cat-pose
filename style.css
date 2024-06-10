@@ -1,5 +1,8 @@
 :root {
-    --primary-color: #00008b; 
+    --primary-color: #4a1483; 
+    --secondary-color: #f7f7de;
+    /* --secondary-color: #B299D1; */
+    --primary-light: #AB63F7;
 }
 
 input {
@@ -7,6 +10,13 @@ input {
     margin-bottom: 1em;
 }
 
+footer {
+    background-color: var(--primary-color);
+
+p.primary-card {
+    margin-bottom: 0px;
+}
+}
 .karla{
     font-family: "Karla", sans-serif;
     font-optical-sizing: auto;
@@ -26,6 +36,10 @@ input {
     font-size: 50px;
 }
 
+.secondary-logo {
+    color: var(--primary-color);
+}
+
 .landing-section {
     justify-content: space-between;
 }
@@ -37,7 +51,7 @@ input {
 }
 
 .landing-form {
-    background-color: rgb(0, 0, 139, 0.7)
+    background-color: rgb(74, 20, 131,0.7); 
 }
 
 .form-button {
@@ -52,11 +66,12 @@ input {
 
 
 .feature-card {
-    background-color: aliceblue;
+    background-color: var(--primary-color);
+    color: whitesmoke;
     position: absolute;
-    top: 800px;
+    top: 700px;
     right: 40px;
-    line-height: 3em;
+    line-height: 2em;
 }
 
 .cat-yoga-img {
@@ -70,6 +85,7 @@ input {
 }
 
 .signup-section {
+    background-color: var(--secondary-color);
     justify-content: space-around;
     align-items: center;
     /* fixing with Bootstrap grid 
@@ -83,13 +99,26 @@ input {
     justify-content: space-evenly;
 }
 
+.reviewer {
+    color: var(--primary-color);
+    text-align: center;
+}
+
 .ind-card {
     flex-direction: column;
     align-items: center;
 }
 
+.cat-ratings {
+    margin-bottom: -25px;
+}
+
 .contact-info {
     line-height: 1em;
+}
+
+.contact-us {
+    background-color: var(--secondary-color);
 }
 
 .form-button:hover {
@@ -116,6 +145,7 @@ input {
 
 .about-us {
     position: unset;
+    margin-top: 1em;
     order: 1;
 }
 
@@ -134,13 +164,23 @@ input {
     margin-bottom: 1.5em;
 }
 
+.card-one {
+    order: 2
+}
+
 .primary-card {
-    margin-top: 3em;
-    margin-bottom: 3em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    order: 1;
+}
+
+.card-three {
+    order: 3;
 }
 
 .review-card-section {
     margin-top: -3em;
+    display: flex;
 }
 
 .container-fluid {
